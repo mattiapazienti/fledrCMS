@@ -36,12 +36,13 @@ header .actions a:hover, header .actions a:link:hover  {text-decoration:none; ba
 /* contents */
 
 .f_login {width:320px; text-align:center; margin:0 auto; overflow:hidden}
-
-.f_login .fledrLogo {background:url('../img/fledr_big.png') center center no-repeat;width:100px;height:100px;overflow:hidden;text-indent:-999px;margin:0 auto;}
+.f_login .fledrLogo {background:url('../img/fledr_big.png') center center no-repeat;width:100px;height:90px;overflow:hidden;text-indent:-999px;margin:0 auto;}
 
 .f_login .button {margin:10px auto 0 auto !important; width:100%; background:steelblue; border:0}
 .f_login form input {width:99% !important; margin:10px auto 0 auto !important;}
 .f_login .button:hover {background:lightslategray}
+
+p.error {background:moccasin; padding:10px; border:1px solid #888}
 
 footer {background:tomato; text-align:center; padding:60px 20px; font-size:12px; color:#fff}
 .button {clear:both !important; display:block; background:tomato; margin-top:0; padding:10px; font-size:1.5em; width:100%; color:#fff; border-bottom:2px solid crimson; cursor:pointer}
