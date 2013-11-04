@@ -37,14 +37,7 @@ header .actions a:hover, header .actions a:link:hover  {text-decoration:none; ba
 
 .f_login {width:320px; text-align:center; margin:0 auto; overflow:hidden}
 
-.f_login .fledrLogo {
-background:url('../img/fledr_big.png') center center no-repeat;
-width:100px;
-height:100px;
-overflow:hidden;
-text-indent:-999px;
-margin:0 auto;
-}
+.f_login .fledrLogo {background:url('../img/fledr_big.png') center center no-repeat;width:100px;height:100px;overflow:hidden;text-indent:-999px;margin:0 auto;}
 
 .f_login .button {margin:10px auto 0 auto !important; width:100%; background:steelblue; border:0}
 .f_login form input {width:99% !important; margin:10px auto 0 auto !important;}
