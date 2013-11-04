@@ -1,0 +1,125 @@
+/* resets */
+
+* {padding:0; margin:0; border:0}
+html, body {height:100%}
+a, a:link, a:visited {text-decoration:none}
+a:hover, a:link:hover {text-decoration:underline}
+input, button, select {-webkit-appearance: none; -webkit-border-radius:0; border-radius:0}
+p {display:block; overflow:hidden}
+
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
+ul, li {list-style:none; overflow:hidden;}
+
+/* colors */
+
+body {background:#efefe; color:#464646}
+a, a:link, a:visited, a:active {color:#000}
+
+/* fonts */
+
+body {padding-top:60px; background:#f5f5f5; font-family:'Noto Sans', Helvetica, Arial, Sans-Serif; font-size:16px; font-weight:400}
+h1 {font-size:3em; font-weight:400; letter-spacing:-0.05em}
+h2 {font-size:2em; font-weight:400; letter-spacing:-0.05em}
+h3 {font-size:1.5em; font-weight:700; letter-spacing:-0.02em}
+h4 {font-size:1.5em; letter-spacing:-0.05em}
+h5 {font-size:0.8em;}
+h6 {font-size:0.8; font-weight:700}
+
+/* header */
+
+header {position:fixed; top:0; left:0; z-index:2000; width:100%; color:#fff; height:60px; line-height:55px; background:#333; overflow:hidden;}
+header h1 {float:left; width:60px; height:60px; overflow:hidden; text-indent:-999px; background:url('../img/fledr_small.png') center center no-repeat}
+header .actions {float:left; overflow:hidden; padding: 0 15px 0 0}
+header .actions a {font-size:12px; text-transform:uppercase; color:#fff; background:#444; padding:6px 12px; -webkit-border-radius:3px; border-radius:3px; margin-left:5px}
+header .actions a:hover, header .actions a:link:hover  {text-decoration:none; background:tomato}
+
+/* contents */
+
+.f_login {width:320px; text-align:center; margin:0 auto; overflow:hidden}
+
+.f_login .fledrLogo {
+background:url('../img/fledr_big.png') center center no-repeat;
+width:100px;
+height:100px;
+overflow:hidden;
+text-indent:-999px;
+margin:0 auto;
+}
+
+.f_login .button {margin:10px auto 0 auto !important; width:100%; background:steelblue; border:0}
+.f_login form input {width:99% !important; margin:10px auto 0 auto !important;}
+.f_login .button:hover {background:lightslategray}
+
+footer {background:tomato; text-align:center; padding:60px 20px; font-size:12px; color:#fff}
+.button {clear:both !important; display:block; background:tomato; margin-top:0; padding:10px; font-size:1.5em; width:100%; color:#fff; border-bottom:2px solid crimson; cursor:pointer}
+.button:hover {background:crimson} 
+.content {width:100%; min-height:1000px; overflow:hidden; margin:0 auto}
+.content h1 {margin-bottom:20px; display:none}
+
+/* dashboard */
+
+.content ul li {position:relative; display:block; font-size:1.5em; width:100%; padding:0; height:105px;}
+.content ul li:nth-child(odd) {background:#fff;}
+.content ul li time {float:left; height:100%; font-size:12px; text-align:center; background:tomato; color:#fff; padding:0 20px 20px 20px; }
+.content ul li time b {font-size:5em; display:block; margin:0 0 -10px 0}
+.content ul li h2 {font-size:1.3em; line-height:1em; width:55%; overflow:hidden; padding:20px; float:left}
+.content ul li:nth-child(odd) time {background:salmon;}
+.content ul li h2 a {color:#555}
+
+.content ul li .f_options {position:absolute; top:50%; margin-top:-25px;  right:15px; width:50px; height:50px; overflow:hidden; }
+.content ul li .f_options a {-webkit-opacity:0.6; opacity:0.6; display:block; text-indent:-999px; overflow:hidden; width:50px; height:50px; background:url('../img/delete.png') center center no-repeat}
+.content ul li .f_options a:hover, .content ul li .f_options a:link:hover {-webkit-opacity:1; opacity:1;}
+
+/* new */
+
+form > br {display:none}
+form label {display:none; font-size:1.2em; color: steelblue; text-transform:capitalize; margin:10px 0}
+form input[type="text"], form input[type="password"], form select {clear:both; -webkit-appareance:none; width:100%; margin-bottom:0px; font-size:2em; padding:10px 10px; color:#777}
+form input[type="text"]:nth-of-type(2) {background:#eee}
+.edit form input[type="text"]:nth-of-type(2) {background:#fff}
+
+form > div {width:100% !important; margin:0 !important; background:#eee; border:0 !important}
+form > div > div.nicEdit-main {min-width:95% !important; min-height:200px !important; outline:none !important}
+form > div > div {background:#eee; border:0 !important; padding:10px}
+
+/* errors */
+
+.message, ul li.error {background:moccasin !important; font-size:2em; border-radius:4px}
+.message h5, ul li.error h5 {padding:20px}
+.message a {clear:both !important; color:#fff; display:block; background:tomato; padding:10px; font-size:0.8em; text-align:center; border-bottom:2px solid crimson; cursor:pointer}
+.message a:hover, .message a:link:hover {background:crimson; text-decoration:none}
+
+.alert .message a {width:50%; float:left; clear:none !important; padding:10px 0}
+.alert .message a:nth-of-type(2) {background:yellowgreen; border-color:limegreen}
+.alert .message a:nth-of-type(2):hover {background:limegreen}
+
+/* responsive */
+
+@media screen and (max-width:700px) {
+.content ul li h2 {font-size:1em; line-height:1.2em}
+header {overflow:visible}
+header .show_act {display:block !important; float:right; width:60px; height:60px; overflow:hidden; cursor:pointer; text-indent:-999px; background:#111 url('../img/menu.png') center center no-repeat;}
+header .show_act:hover {background-color:tomato}
+header .actions {position:absolute; top:60px; right:-120%; background:#333; width:100%; line-height:1em; padding-bottom:20px; -webkit-transition: all 700ms ease-out 0s; transition: all 700ms ease-out 0s; z-index:3200}
+header .actions a {background:transparent; display:block; padding:10px; text-align:center; font-size:1em}
+header .actions a:hover, header .actions a:link:hover {background:transparent; color:tomato}
+header.menuopen .actions {right:0 !important}
+}
+
+@media screen and (max-width:540px) {
+.content ul li time {font-size:10px; padding:10px}
+.content ul li h2 {width:50%; font-size:0.8em; line-height:1.1em; padding:10px}
+}
+
+@media screen and (max-width:320px) {
+.content ul li time {font-size:9px; padding:5px}
+.content ul li h2 {width:45%; font-size:0.7em; line-height:1.2em; padding:10px}
+.content ul li .f_options a {font-size:11px; margin:3px}
+}
+
+
+
+ 
+
+
+

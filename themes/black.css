@@ -1,0 +1,9 @@
+header {background:#000; color:#fff}
+header h1 a {color:#eee !important}
+body {background:#444; color:#eee}
+#content ul li .entry h2 a {color:#fff}
+#content article .left time, #content ul li .left time {color:#eee}
+
+@media screen and (max-width:340px) {
+#content article .left time b, #content ul li .left time b {background:#222}
+}

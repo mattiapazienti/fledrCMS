@@ -1,0 +1,9 @@
+<?php 
+include_once("config.php");
+//header
+include_once("tpl/header.php"); 
+//contents
+include_once("posts.php");
+//footer
+include_once("tpl/footer.php"); 
+?>

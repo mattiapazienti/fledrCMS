@@ -1,0 +1,12 @@
+header {background:forestgreen; color:#fff}
+header h1 a {color:#fff !important}
+body {background:honeydew; color:#555}
+#content ul li .entry h2 a {color:#444}
+#content article .left time, #content ul li .left time {color:#fff; background:limegreen}
+#content ul li .left span {background:forestgreen}
+
+@media screen and (max-width:340px) {
+#content article .left time b, #content ul li .left time b {background:forestgreen}
+#content article .left time, #content ul li .left time {color:#444; background:transparent}
+#content ul li .left span {background:transparent}
+}
