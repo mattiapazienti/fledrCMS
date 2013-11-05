@@ -1,0 +1,12 @@
+<Files "posts.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "about.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "views.txt">
+Order Allow,Deny
+Deny from all
+</Files>
