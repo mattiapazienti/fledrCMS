@@ -1,8 +1,7 @@
-
 <nav>
     <div class="nav">
         <div class="pop">Popular Posts</div> 
-        <div class="aut"><a href="about.php">About</a></div>
+        <div class="aut"><a href="about.php" title="About the author">About</a></div>
     </div>
 </nav>    
 <div id="content" class="entries">
