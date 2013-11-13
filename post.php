@@ -35,7 +35,7 @@ if($success==true){ $_SESSION["saved"]=true;}
 
 //posts
 $fileName = "admin/posts.txt";
-$file = fopen($fileName, 'r') or die("Error opening file!");
+$file = fopen($fileName, 'r') or die("Error opening file");
 
 $posts = array();
 
