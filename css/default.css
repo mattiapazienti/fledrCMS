@@ -45,7 +45,7 @@ nav .nav > *:hover {text-decoration:underline; cursor:pointer}
 .button:hover  {background:#666}
 .button a, .button a:hover {color:#fff !important; text-decoration:none; display:inline-block; padding:8px 12px 6px 12px;}
 
-
+/* posts layout  */
 #content ul, #content article, #content .contents {margin:70px 0 20px 0; min-height:200px}
 #content article {border-bottom:1px solid #ccc; padding-bottom:40px}
 #content .contents {border-bottom:1px solid #ccc}
