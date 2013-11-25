@@ -5,7 +5,7 @@ Lightweight (280kb ds) Blogging platform in php fully responsive, upload files t
 
 <h2>Release log</h2>
 
-<h5>JSON converter</h5>
+<h5>JSON converter (as of November 25th 2013) </h5>
 Fledr comes now with a JSON converter for your posts, from the JSON button in the header menu you can convert all your posts with a single click.
 Converted posts will be then available from posts.json in the admin folder.
 
