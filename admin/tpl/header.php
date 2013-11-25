@@ -9,5 +9,5 @@
         <link href="css/default.css" rel="stylesheet" >
     </head>
     <body>
-        <header><h1>f</h1><div class="show_act" style="display:none">menu</div><nav class="actions"><a class="f_fe" href="../index.php">home</a><a class="f_home" href="index.php">dashboard</a><a class="f_new" href="index.php?p=new">new</a><a class="f_bio" href="index.php?p=about">about</a><a class="f_settings" href="index.php?p=settings">settings</a><a class="f_logout" href="logout.php">logout</a></nav></header>
+        <header><h1>f</h1><div class="show_act" style="display:none">menu</div><nav class="actions"><a class="f_fe" href="../index.php">home</a><a class="f_home" href="index.php">dashboard</a><a class="f_new" href="index.php?p=new">new</a><a class="f_json" href="index.php?p=json">json</a><a class="f_bio" href="index.php?p=about">about</a><a class="f_settings" href="index.php?p=settings">settings</a><a class="f_logout" href="logout.php">logout</a></nav></header>
    
