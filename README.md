@@ -3,6 +3,12 @@ fledrCMS
 
 Lightweight (280kb ds) Blogging platform in php fully responsive, upload files to the root (or a folder) on your host and start posting. No database/SQL needed!
 
+<h2>Release log</h2>
+
+<h5>JSON converter</h5>
+Fledr comes now with a JSON converter for your posts, from the JSON button in the header menu you can convert all your posts with a single click.
+Converted posts will be then available from posts.json in the admin folder.
+
 <h2>Admin area:</h2>
 
 <h5>URL</h5>
