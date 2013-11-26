@@ -9,6 +9,12 @@ Lightweight (280kb ds) Blogging platform in php fully responsive, upload files t
 Fledr comes now with a JSON converter for your posts, from the JSON button in the header menu you can convert all your posts with a single click.
 Converted posts will be then available from posts.json in the admin folder.
 
+If you're already using Fledr, download/copy just these files to the admin folder:
+
+- admin/json.php
+- admin/posts.json
+- admin/tpl/header.php
+
 <h2>Admin area:</h2>
 
 <h5>URL</h5>
