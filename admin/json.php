@@ -24,7 +24,7 @@ for ($i=0; $i<$tot_posts; $i++){
     $text = $content[2];
     $slug = str_replace(" ", "-", $title);
     $slug = strtolower($slug);
-    $arr = array('slug' => $slug, 'date' => $date, 'title' => $title, 'text' => $text);
+    $arr = array('id' => $i, 'slug' => $slug, 'date' => $date, 'title' => $title, 'text' => $text);
     $package = json_encode($arr);
     $new_content .=  "\n" . $package . ",";
 }
