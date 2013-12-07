@@ -23,6 +23,16 @@ for ($i=0; $i<$tot_posts; $i++){
     $title = $content[1];
     $text = $content[2];
     $slug = str_replace(" ", "-", $title);
+    $slug = str_replace(",", "", $slug);
+    $slug = str_replace(":", "", $slug);
+    $slug = str_replace(".", "", $slug); 
+    $slug = str_replace("+", "", $slug);     
+    $slug = str_replace("?", "", $slug);    
+    $slug = str_replace("!", "", $slug);
+    $slug = str_replace(";", "", $slug);
+    $slug = str_replace("/", "", $slug); 
+    $slug = str_replace("(", "", $slug);     
+    $slug = str_replace(")", "", $slug);       
     $slug = strtolower($slug);
     $arr = array('id' => $i, 'slug' => $slug, 'date' => $date, 'title' => $title, 'text' => $text);
     $package = json_encode($arr);
