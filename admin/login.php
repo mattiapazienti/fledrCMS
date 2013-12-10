@@ -16,7 +16,9 @@ if(!empty($_POST["f_password"])){
 		setcookie ("f_password", sha1($_POST["f_password"]), time()+3600*24*7,'/');
 		header("Location: index.php");
 		die();		
-	} else {}	
+	} else {
+		
+	}	
 }
 
 //attempts to 0
