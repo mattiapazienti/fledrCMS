@@ -9,7 +9,7 @@ $session = 40000; $hash = Array();$hash[] = sha1($pass);$f_limit = 4; $session_e
 //create cookie
 if(isset($_COOKIE["f_password"])){$_SESSION["f_password"] = $_COOKIE['f_password'];}
 
-//login
+//login encrypt password with sha1
 if(!empty($_POST["f_password"])){
         if(in_array(sha1($_POST["f_password"]), $hash) ){                    
 		$_SESSION["f_password"] = sha1($_POST["f_password"]);
