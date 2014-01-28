@@ -18,7 +18,7 @@ If you're already using Fledr, download/copy just these files to the admin folde
 <h2>Admin area:</h2>
 
 <h5>URL</h5>
-http://www.your-site-url.com/ (if you copy fledr on root) or http://www.your-site-url.com/your-folder/ (if you copy fledr in a folder).
+www.your-site-url.com/ (if you copy fledr on root) or www.your-site-url.com/your-folder/ (if you copy fledr in a folder).
 
 <h5>Login</h5>
 
