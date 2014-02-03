@@ -7,7 +7,7 @@
   //]]>
 </script>
 
-<h1>Edit post</h1>
+<h1>Edit Post</h1>
 
 <?php 
 
